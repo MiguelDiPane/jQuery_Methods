@@ -1,0 +1,6 @@
+.box{
+    width: 160px;
+    height: 160px;
+    display: none;
+    background-color: rgb(69, 55, 148);
+}

@@ -1,0 +1,11 @@
+#ball{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: rgb(141, 88, 194);
+    border: 1px black solid;
+    /*To manipulate the position*/
+    position: relative; 
+}

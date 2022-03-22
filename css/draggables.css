@@ -1,0 +1,11 @@
+#square3{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background: rgb(53, 50, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}

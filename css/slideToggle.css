@@ -1,0 +1,17 @@
+#panel3,#topbar3{
+    text-align: center;
+    background-color: rgb(58, 30, 56);
+    color: white;
+    width: 100%;
+}
+#topbar3{
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#panel3{
+    padding-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}

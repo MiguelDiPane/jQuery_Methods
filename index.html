@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <!-- METHODS -->
+    <h1 class="title">jQuery Methods</h1>
+    <div class="container">
+        
+        <!--jQuery Toggle-->
+        <script src="js/toggle.js"></script>
+        <section>
+            <h2>jQuery toggle()</h2>
+            <p id="txtToggle">Text Paragraph 1</p>
+            <button id="btnToggle">Toggle</button>
+        </section>
+
+        <!--jQuery Fade In - Fade Out-->
+        <script src="js/fade.js"></script>
+        <link rel="stylesheet" href="css/fade.css">
+        <section>
+            <h2>jQuery fadeIn() - fadeOut()</h2>
+            <button id="btnFade">Fade In effect</button><br><br>
+            <div id="div1" class="box"></div><br>
+            <div id="div2" class="box"></div><br>
+            <div id="div3" class="box"></div><br>
+            <div id="div4" class="box"></div><br>
+        </section>
+
+        <!--jQuery Fade Toggle-->
+        <script src="js/fadeToggle.js"></script>
+        <link rel="stylesheet" href="css/fadeToggle.css">
+        <section>
+            <h2>jQuery fadeToggle()</h2>
+            <button id="btnFadeToggle">Fade Toggle</button><br><br>
+            <div id="div5" class="box"></div><br>
+            <div id="div6" class="box"></div><br>
+            <div id="div7" class="box"></div><br>
+            <div id="div8" class="box"></div><br>
+        </section>
+
+        <!--jQuery Fade To-->
+        <script src="js/fadeTo.js"></script>
+        <link rel="stylesheet" href="css/fadeTo.css">
+        <section>
+            <h2>jQuery fadeTo()</h2>
+            <p>To fade object to a specified opacity</p>
+            <button id="btnFadeTo">Fade To</button><br><br>
+            <div id="div9" class="box"></div><br>
+        </section>
+
+        <!--jQuery Slide Down-->
+        <script src="js/slideDown.js"></script>
+        <link rel="stylesheet" href="css/slideDown.css">
+        <section>
+            <h2>jQuery slideDown()</h2>
+            <div id="topbar">View Panel</div>
+            <div id="panel">This is a Panel with simple content</div>
+        </section>
+
+        <!--jQuery Slide Up-->
+        <script src="js/slideUp.js"></script>
+        <link rel="stylesheet" href="css/slideUp.css">
+        <section>
+            <h2>jQuery slideUp()</h2>
+            <div id="topbar2">Hide Panel</div>
+            <div id="panel2">This is a Panel with simple content</div>
+        </section>
+
+        <!--jQuery Slide Toggle-->
+        <script src="js/slideToggle.js"></script>
+        <link rel="stylesheet" href="css/slideToggle.css">
+        <section>
+            <h2>jQuery slideToggle()</h2>
+            <div id="topbar3">View Panel</div>
+            <div id="panel3">This is a Panel with simple content</div>
+        </section>
+
+        <!--jQuery Animate-->
+        <script src="js/animate.js"></script>
+        <link rel="stylesheet" href="css/animate.css">
+        <section>
+            <h2>jQuery animate()</h2>
+            <button id="btnAnimate">Start animation</button>
+            <div id="ball"></div>
+        </section>
+
+        <!--jQuery Stop-->
+        <script src="js/stop.js"></script>
+        <link rel="stylesheet" href="css/stop.css">
+        <section>
+            <h2>jQuery stop()</h2>
+            <p>To stop an animation before it's finished.</p>
+            <p>It works for all animation types including sliding, fading and custom animations.</p>
+            <button id="btnStart">Start animation</button>
+            <button id="btnStop">Stop animation</button>
+            <div id="ball2"></div>
+        </section>
+
+        <!--jQuery Callback Functions-->
+        <script src="js/callbackFunctions.js"></script>
+        <link rel="stylesheet" href="css/callbackFunctions.css">
+        <section>
+            <h2>jQuery Callback Functions</h2>
+            <button id="btnHide">Hide</button>
+            <div id="square"></div>
+        </section>
+
+        <!--jQuery Chaining-->
+        <script src="js/chaining.js"></script>
+        <link rel="stylesheet" href="css/chaining.css">
+        <section>
+            <h2>jQuery Chaining</h2>
+            <p>It alllows us to run multiple jQuery commands one after the other on the same element.</p>
+            <button id="btnChaining">Animate</button>
+            <div id="square2"></div>
+        </section>
+
+        <!--jQuery Draggables using jQuery User Interface (UI)-->
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/draggables.js"></script>
+        <link rel="stylesheet" href="css/draggables.css">
+        <section>
+            <h2>jQuery Draggables using jQuery User Interface (UI)</h2>
+            <p>jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.</p>
+            <div id="square3">Drag me :D</div>
+        </section>
+
+        <!--jQuery Accordian using jQuery User Interface (UI)-->
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/accordian.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="css/accordian.css">
+        <section>
+            <h2>jQuery Accordian using jQuery User Interface (UI)</h2>
+            <h3>jQuery Themes</h3>
+            <ul>
+                <li>Default theme: smoothness/jquery-ui.css</li>
+                <li>Custom themes: <a href="http://jqueryui.com/themeroller/" target="_blank">http://jqueryui.com/themeroller/</a></li>
+            </ul>
+            <div id="accordion">
+                <div>Heading 1</div>
+                <div>Paragraph 1</div>
+                <div>Heading 2</div>
+                <div>Paragraph 2</div>
+                <div>Heading 3</div>
+                <div>Paragraph 3</div>
+            </div>
+        </section>
+
+        <!--jQuery Get Content - text(), html()-->
+        <script src="js/getContent.js"></script>
+        <section>
+            <h2>jQuery Get Content - text(), html()</h2>
+            <p id="content">This is a simple line of <strong>text</strong>.</p>
+            <button id="btnShowText">Show Text</button>
+            <button id="btnShowHTML">Show HTML</button>
+            <div id="show"></div>
+        </section>
+
+        <!--jQuery Get Content - val()-->
+        <script src="js/getValue.js"></script>
+        <section>
+            <h2>jQuery Get Content - val()</h2>
+            <p>Used to retrieve the value of an input field</p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <button id="btnGetValue">Get Value</button>
+            <div id="showName"></div>
+        </section>
+
+        <!--jQuery Get Content - attr()-->
+        <script src="js/getAttribute.js"></script>
+        <section>
+            <h2>jQuery Get Content - attr()</h2>
+            <p>To get attribute values</p>
+            <p><a href="https://www.udemy.com/" id="myLink" target="_blank">Udemy</a></p>
+            <button id="btnGetAttributes">Get Attributes</button>
+            <div id="showAttributes"></div>
+        </section>
+
+        <!--jQuery Set Content - text(), html() and attr()-->
+        <script src="js/setContent.js"></script>
+        <section>
+            <h2>jQuery Set Content - text(), html() and attr()</h2>
+            <p>To set content insted of retrieving it.</p>
+            <p id="line1">Text line 1.</p>
+            <p id="line2">Text line 2.</p>
+            <label for="name2">Name:</label>
+            <input type="text" name="name2" id="name2" value="John Smith"><br><br>
+            <button id="btnResetText">Reset Text</button>
+            <button id="btnResetHTML">Reset HTML</button>
+            <button id="btnResetValue">Reset Value</button>
+        </section>
+
+        <!--jQuery Set Attributes - attr()-->
+        <script src="js/setAttribute.js"></script>
+        <section>
+            <h2>jQuery Set Attributes - attr()</h2>
+            <p>To set or change attribute values of an HTML element</p>
+            <p><a href="https://www.udemy.com/" id="myLink2" target="_blank">Udemy</a></p>
+            <button id="btnSetAttributes">Change Link URL</button>
+            <div id="showAttributes2"></div>
+        </section>
+
+        <!--jQuery Append method - append(), prepend()-->
+        <script src="js/append.js"></script>
+        <section>
+            <h2>jQuery append()</h2>
+            <p>It can be used to append data to the end of a specified HTML element.</p>
+            <h2>jQuery prepend()</h2>
+            <p>It can be used to add data at the beginning of a specified HTML element.</p>
+            <button id="btnAppendText">Append and prepend Text</button>
+            <button id="btnAppendItem">Append and prepend Item</button>
+            <p id="txtAppend">This is a paragraph.</p>
+            <ol id="listAppend">
+                <li>Baseball</li>
+                <li>Basketball</li>
+                <li>Football</li>
+            </ol>
+        </section>
+
+        <!--jQuery after() and before() methods-->
+        <script src="js/insert.js"></script>
+        <link rel="stylesheet" href="css/insert.css">
+        <section>
+            <h2>jQuery after() and before() methods</h2>
+            <p>They can be used to add content after or before an HTML element.</p>
+
+            <button id="btnInsertBefore">Insert before</button>
+            <button id="btnInsertAfter">Insert after</button><br><br>
+            <img src="img/cat.jpg" alt="cat" id="cat">
+        </section>
+
+        <!--jQuery remove() method-->
+        <script src="js/remove.js"></script>
+        <link rel="stylesheet" href="css/remove.css">
+        <section>
+            <h2>jQuery remove() method</h2>
+            <p>It allows us to remove specified elements (and its contents) from our web page.</p>
+            <p>We can use the <i>empty()</i> method to remove all the contents of an element.</p>
+            <button id="btnRemove">Remove image</button>
+            <img src="img/cat2.jpg" alt="cat" id="cat2">
+        </section>
+
+        <!--jQuery Filter remove() method-->
+        <script src="js/filterRemove.js"></script>
+        <link rel="stylesheet" href="css/filterRemove.css">
+        <section>
+            <h2>jQuery Filter remove() method</h2>
+            <p>To remove HTML elements using filters.</p>
+            <p>We can use the <i>empty()</i> method to remove all the contents of an element.</p>
+            <p>This is a paragraph</p>
+            <p class="rem1">This paragraph has class="rem1".</p>
+            <p class="rem1">This paragraph has class="rem1".</p>
+            <p class="rem2">This paragraph has class="rem2".</p>
+            <button id="btnFilterRemove">Remove</button>
+        </section>
+
+        <!--jQuery Get and Set CSS Classes-->
+        <script src="js/addClass.js"></script>
+        <link rel="stylesheet" href="css/addClass.css">
+        <section>
+            <h2>jQuery Get and Set CSS Classes</h2>
+            <p>We can add class attribute to different elements.</p>
+            <p>We can select single or multiple elements to apply the class to.</p>
+            <button id="btnAddClass">Add Class</button>
+            <h3 id="heading1">Heading 1</h3>
+            <h4 id="heading2">Heading 2</h4>
+            <p id="txtline1">Text line 1.</p>
+            <p id="txtline2">Text line 2.</p>
+            <p id="txtline3">Text line 3.</p>
+        </section>
+
+        <!--jQuery Remove CSS Classes-->
+        <script src="js/removeClass.js"></script>
+        <link rel="stylesheet" href="css/removeClass.css">
+        <section>
+            <h2>jQuery Remove CSS Classes</h2>
+            <p>We can remove a class from an HTML element.</p>
+
+            <button id="btnRemoveClass">Remove Class</button>
+            <h3 id="heading1R" class="red">Heading 1</h3>
+            <h4 id="heading2R" class="red">Heading 2</h4>
+            <p id="txtline1R" class="red">Text line 1.</p>
+            <p id="txtline2R" class="red">Text line 2.</p>
+            <p id="txtline3R" class="red big">Text line 3.</p>
+        </section>
+
+        <!--jQuery Toggle CSS Classes-->
+        <script src="js/toggleClass.js"></script>
+        <link rel="stylesheet" href="css/toggleClass.css">
+        <section>
+            <h2>jQuery Toggle CSS Classes</h2>
+            <p>We can switch between adding and removing classes using this method.</p>
+
+            <button id="btnToggleClass">Toggle Class</button>
+            <h3 id="heading1T">Heading 1</h3>
+            <h4 id="heading2T">Heading 2</h4>
+            <p id="txtline1T">Text line 1.</p>
+            <p id="txtline2T">Text line 2.</p>
+            <p id="txtline3T">Text line 3.</p>
+        </section>
+    </div>
+</body>
+</html>
